@@ -1,9 +1,15 @@
 .container{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width:800px;
+    border: 1px solid black;
 }
-#player{
+.container>div{
     display:flex;
     flex-direction: column;
+    align-items: center;
 }
 .row{
     display:flex;
@@ -15,4 +21,26 @@
 }
 .checked{
     color:red;
+}
+.bingo{
+    width:150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bingoNumb{
+    height: 100px;
+    line-height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #E5DECD;
+    box-shadow: inset -2px -2px 10px 1px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+#result{
+    text-align: center;
+    height: 50px;
 }

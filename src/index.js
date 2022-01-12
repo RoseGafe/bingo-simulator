@@ -62,7 +62,7 @@ function checkWinner(num){
                 element.classList.add('checked');
                 playerChecked++;
                 if(playerChecked == 15){
-                    document.getElementById('result').textContent="HAS GANADO";
+                    document.getElementById('result').textContent="🎉 HAS GANADO 🎉";
                     BTN.disabled = true;
                 }
             }
@@ -75,7 +75,7 @@ function checkWinner(num){
                 element.classList.add('checked');
                 pcChecked++;
                 if(pcChecked == 15){
-                    document.getElementById('result').textContent="HAS PERDIDO";
+                    document.getElementById('result').textContent="HAS PERDIDO 😭";
                     BTN.disabled = true;
                 }
             }
